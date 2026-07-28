@@ -1,0 +1,338 @@
+/* Import Font da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;700&display=swap');
+
+/* ==========================================================================
+   1. VARIABLES & BASE CONFIG
+   ========================================================================== */
+:root {
+    /* Palette Melancholia.fm */
+    --mf-bg-dark: #0F1016;
+    --mf-surface: #1A1C29;
+    --mf-lavender: #9D8EC7;
+    --mf-cyan: #00F5D4;
+    --mf-text-main: #E2E8F0;
+    --mf-text-muted: #64748B;
+
+    /* Tipografia */
+    --mf-font-display: 'Space Grotesk', sans-serif;
+    --mf-font-mono: 'Share Tech Mono', monospace;
+    --mf-font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Base Body Override per Bootstrap */
+body {
+    background-color: var(--mf-bg-dark) !important;
+    color: var(--mf-text-main);
+    font-family: var(--mf-font-body);
+}
+
+/* ==========================================================================
+   2. UTILITY CLASSES (Estensione Bootstrap)
+   ========================================================================== */
+
+/* --- Backgrounds --- */
+.bg-mf-dark {
+    background-color: var(--mf-bg-dark) !important;
+}
+
+.bg-mf-surface {
+    background-color: var(--mf-surface) !important;
+}
+/* Import Font da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;700&display=swap');
+
+/* ==========================================================================
+   1. VARIABLES & BASE CONFIG
+   ========================================================================== */
+:root {
+    /* Palette Melancholia.fm */
+    --mf-bg-dark: #0F1016;
+    --mf-surface: #1A1C29;
+    --mf-lavender: #9D8EC7;
+    --mf-cyan: #00F5D4;
+    --mf-text-main: #E2E8F0;
+    --mf-text-muted: #64748B;
+
+    /* Tipografia */
+    --mf-font-display: 'Space Grotesk', sans-serif;
+    --mf-font-mono: 'Share Tech Mono', monospace;
+    --mf-font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Base Body Override per Bootstrap */
+body {
+    background-color: var(--mf-bg-dark) !important;
+    color: var(--mf-text-main);
+    font-family: var(--mf-font-body);
+}
+
+/* ==========================================================================
+   2. UTILITY CLASSES (Estensione Bootstrap)
+   ========================================================================== */
+
+/* --- Backgrounds --- */
+.bg-mf-dark {
+    background-color: var(--mf-bg-dark) !important;
+}
+
+.bg-mf-surface {
+    background-color: var(--mf-surface) !important;
+}
+/* Import Font da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;700&display=swap');
+
+/* ==========================================================================
+   1. VARIABLES & BASE CONFIG
+   ========================================================================== */
+:root {
+    /* Palette Melancholia.fm */
+    --mf-bg-dark: #0F1016;
+    --mf-surface: #1A1C29;
+    --mf-lavender: #9D8EC7;
+    --mf-cyan: #00F5D4;
+    --mf-text-main: #E2E8F0;
+    --mf-text-muted: #64748B;
+
+    /* Tipografia */
+    --mf-font-display: 'Space Grotesk', sans-serif;
+    --mf-font-mono: 'Share Tech Mono', monospace;
+    --mf-font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Base Body Override per Bootstrap */
+body {
+    background-color: var(--mf-bg-dark) !important;
+    color: var(--mf-text-main);
+    font-family: var(--mf-font-body);
+}
+
+/* ==========================================================================
+   2. UTILITY CLASSES (Estensione Bootstrap)
+   ========================================================================== */
+
+/* --- Backgrounds --- */
+.bg-mf-dark {
+    background-color: var(--mf-bg-dark) !important;
+}
+
+.bg-mf-surface {
+    background-color: var(--mf-surface) !important;
+}
+/* Import Font da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;700&display=swap');
+
+/* ==========================================================================
+   1. VARIABLES & BASE CONFIG
+   ========================================================================== */
+:root {
+    /* Palette Melancholia.fm */
+    --mf-bg-dark: #0F1016;
+    --mf-surface: #1A1C29;
+    --mf-lavender: #9D8EC7;
+    --mf-cyan: #00F5D4;
+    --mf-text-main: #E2E8F0;
+    --mf-text-muted: #64748B;
+
+    /* Tipografia */
+    --mf-font-display: 'Space Grotesk', sans-serif;
+    --mf-font-mono: 'Share Tech Mono', monospace;
+    --mf-font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Base Body Override per Bootstrap */
+body {
+    background-color: var(--mf-bg-dark) !important;
+    color: var(--mf-text-main);
+    font-family: var(--mf-font-body);
+}
+
+/* ==========================================================================
+   2. UTILITY CLASSES (Estensione Bootstrap)
+   ========================================================================== */
+
+/* --- Backgrounds --- */
+.bg-mf-dark {
+    background-color: var(--mf-bg-dark) !important;
+}
+
+.bg-mf-surface {
+    background-color: var(--mf-surface) !important;
+}
+/* Import Font da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;700&display=swap');
+
+/* ==========================================================================
+   1. VARIABLES & BASE CONFIG
+   ========================================================================== */
+:root {
+    /* Palette Melancholia.fm */
+    --mf-bg-dark: #0F1016;
+    --mf-surface: #1A1C29;
+    --mf-lavender: #9D8EC7;
+    --mf-cyan: #00F5D4;
+    --mf-text-main: #E2E8F0;
+    --mf-text-muted: #64748B;
+
+    /* Tipografia */
+    --mf-font-display: 'Space Grotesk', sans-serif;
+    --mf-font-mono: 'Share Tech Mono', monospace;
+    --mf-font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Base Body Override per Bootstrap */
+body {
+    background-color: var(--mf-bg-dark) !important;
+    color: var(--mf-text-main);
+    font-family: var(--mf-font-body);
+}
+
+/* ==========================================================================
+   2. UTILITY CLASSES (Estensione Bootstrap)
+   ========================================================================== */
+
+/* --- Backgrounds --- */
+.bg-mf-dark {
+    background-color: var(--mf-bg-dark) !important;
+}
+
+.bg-mf-surface {
+    background-color: var(--mf-surface) !important;
+}
+/* Import Font da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;700&display=swap');
+
+/* ==========================================================================
+   1. VARIABLES & BASE CONFIG
+   ========================================================================== */
+:root {
+    /* Palette Melancholia.fm */
+    --mf-bg-dark: #0F1016;
+    --mf-surface: #1A1C29;
+    --mf-lavender: #9D8EC7;
+    --mf-cyan: #00F5D4;
+    --mf-text-main: #E2E8F0;
+    --mf-text-muted: #64748B;
+
+    /* Tipografia */
+    --mf-font-display: 'Space Grotesk', sans-serif;
+    --mf-font-mono: 'Share Tech Mono', monospace;
+    --mf-font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Base Body Override per Bootstrap */
+body {
+    background-color: var(--mf-bg-dark) !important;
+    color: var(--mf-text-main);
+    font-family: var(--mf-font-body);
+}
+
+/* ==========================================================================
+   2. UTILITY CLASSES (Estensione Bootstrap)
+   ========================================================================== */
+
+/* --- Backgrounds --- */
+.bg-mf-dark {
+    background-color: var(--mf-bg-dark) !important;
+}
+
+.bg-mf-surface {
+    background-color: var(--mf-surface) !important;
+}
+
+.bg-mf-lavender {
+    background-color: var(--mf-lavender) !important;
+}
+
+.bg-mf-cyan {
+    background-color: var(--mf-cyan) !important;
+}
+
+/* --- Text Colors --- */
+.text-mf-lavender {
+    color: var(--mf-lavender) !important;
+}
+
+.text-mf-cyan {
+    color: var(--mf-cyan) !important;
+}
+
+.text-mf-main {
+    color: var(--mf-text-main) !important;
+}
+
+.text-mf-muted {
+    color: var(--mf-text-muted) !important;
+}
+
+/* --- Typography --- */
+.font-display {
+    font-family: var(--mf-font-display) !important;
+}
+
+.font-lcd {
+    font-family: var(--mf-font-mono) !important;
+    letter-spacing: 0.05em;
+}
+
+.font-body {
+    font-family: var(--mf-font-body) !important;
+}
+
+/* --- Borders --- */
+.border-mf-lavender {
+    border-color: var(--mf-lavender) !important;
+}
+
+.border-mf-cyan {
+    border-color: var(--mf-cyan) !important;
+}
+
+.border-mf-surface {
+    border-color: var(--mf-surface) !important;
+}
+
+/* --- Glow Effects & Shadows --- */
+.glow-cyan {
+    box-shadow: 0 0 15px rgba(0, 245, 212, 0.35);
+}
+
+.glow-lavender {
+    box-shadow: 0 0 15px rgba(157, 142, 199, 0.35);
+}
+
+.text-glow-cyan {
+    text-shadow: 0 0 8px rgba(0, 245, 212, 0.6);
+}
+
+.text-glow-lavender {
+    text-shadow: 0 0 8px rgba(157, 142, 199, 0.6);
+}
+
+/* Card Hover con bagliore al passaggio del mouse */
+.glow-hover {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.glow-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 245, 212, 0.25);
+    border-color: var(--mf-cyan) !important;
+}
+
+/* --- Nostalgic Retro FX --- */
+/* Display stiloso in stile lettore MP3 */
+.lcd-display {
+    background-color: rgba(0, 245, 212, 0.05);
+    border: 1px solid rgba(0, 245, 212, 0.3);
+    border-radius: 6px;
+    color: var(--mf-cyan);
+    font-family: var(--mf-font-mono);
+    box-shadow: inset 0 0 10px rgba(0, 245, 212, 0.1);
+}
+
+/* Ratio 1:1 per le copertine degli album */
+.cover-square {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
