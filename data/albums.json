@@ -4,34 +4,39 @@
     "artist": "Of Mice & Men",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/Of_Mice_%26_Men_The_Flood_cover.jpg",
     "releaseYear": 2011,
-    "genre": "Metalcore / Post-Hardcore"
+    "genre": "Metalcore / Post-Hardcore",
+    "memory": "For the times I felt invisible."
   },
   {
     "title": "Challenger",
     "artist": "Memphis May Fire",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Memphis_May_Fire_Challenger.jpg",
     "releaseYear": 2012,
-    "genre": "Metalcore / Post-Hardcore"
+    "genre": "Metalcore / Post-Hardcore",
+    "memory": "For when I needed to feel undomitable."
   },
   {
     "title": "With Ears to See and Eyes to Hear",
     "artist": "Sleeping With Sirens",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d0/With_Ears_to_See_and_Eyes_to_Hear.jpg",
     "releaseYear": 2010,
-    "genre": "Post-Hardcore / Alternative Rock"
+    "genre": "Post-Hardcore / Alternative Rock",
+    "memory": "I felt in a retro movie while singing with Kellin."
   },
   {
     "title": "Unimagine",
     "artist": "Hands Like Houses",
     "coverUrl": "https://m.media-amazon.com/images/I/91oo7FBMQvL._AC_SL1500_.jpg",
     "releaseYear": 2013,
-    "genre": "Post-Hardcore / Alternative Rock"
+    "genre": "Post-Hardcore / Alternative Rock",
+    "memory": "After all these years, still reminds me of them and our Summer."
   },
   {
     "title": "How We Both Wondrously Perish",
     "artist": "Being As An Ocean",
     "coverUrl": "https://m.media-amazon.com/images/I/61cleaQi3AS._AC_SL1200_.jpg",
     "releaseYear": 2014,
-    "genre": "Melodic Hardcore / Post-Hardcore"
+    "genre": "Melodic Hardcore / Post-Hardcore",
+    "memory": "My idea of 'exquisite douleur'."
   }
 ]
