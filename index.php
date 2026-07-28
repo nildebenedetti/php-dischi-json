@@ -1,3 +1,12 @@
+<?php
+
+// get jsondata with file_get_contents
+$albumJsonData = file_get_contents('./data/albums.json');
+// Decodes JSON string into an associative array (true = array, false = object)
+$albums = json_decode($albumJsonData, true)
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melancholia.fm</title>
 
-    <!-- Bootstrap CSS (v5.3.3) -->
+    <!-- Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     
     <!-- Custom Stylesheet -->
@@ -23,14 +32,14 @@
             <span class="font-lcd">[ TOTAL ALBUMS: 5 ]</span>
         </div>
     </div>
-    <!-- card container-->
+    <!-- card container -->
     <div class="container">
         <ul>
 
         </ul>
     </div>
 
-    <!-- Bootstrap JS Bundle -->
+    <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
