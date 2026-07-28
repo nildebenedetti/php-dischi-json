@@ -3,7 +3,7 @@
 // get jsondata with file_get_contents
 $albumJsonData = file_get_contents('./data/albums.json');
 // Decodes JSON string into an associative array (true = array, false = object)
-$albums = json_decode($albumJsonData, true)
+$albums = json_decode($albumJsonData, true);
 
 ?>
 
@@ -27,15 +27,29 @@ $albums = json_decode($albumJsonData, true)
         <h5 class="font-lcd text-mf-cyan text-glow-cyan mt-2">Your favorite music player for nostalgic moments</h5>
     </header>
     <div class="container my-4">
-        <div class="lcd-display p-3 d-flex justify-content-between align-items-center">
+        <div class="lcd-display p-3 d-flex justify-content-between align-items-center"> 
             <span class="font-lcd">> SYSTEM STATUS: READY</span>
             <span class="font-lcd">[ TOTAL ALBUMS: 5 ]</span>
         </div>
     </div>
     <!-- card container -->
-    <div class="container">
-        <ul>
-
+    <div class="container d-flex flex-column justify-content-center">
+        <ul class="row list-unstyled g-3 justify-content-center">
+            <?php foreach( $albums as $album) : ?>
+                    <li class="col-sm-12 col-md-4 col-lg-3">
+                        <div class="card bg-mf-surface border-0 glow-hover text-mf-main h-100 p-3">
+                            <div class="card-body">
+                                <img src="<?= $album['coverUrl'] ?>" 
+                                    class="card-img-top cover-square mb-3" 
+                                    alt="<?= $album['title'] ?>">
+                                <h5 class="card-title font-display text-mf-lavender fw-bold mb-1"><?= $album['title']?></h5>
+                                <h6 class="card-subtitle text-mf-muted mb-3 fs-6"><?= $album['artist'] ?></h6>
+                                <span class="card-text text-mf-muted mb-3 fs-6">Year:<?= $album['releaseYear']?></span>
+                                <p class="card-text text-mf-muted mb-3 fs-6">Genre: <?= $album['genre']?></p>
+                            </div>
+                        </div>
+                    </li>
+                <?php endforeach; ?>
         </ul>
     </div>
 
