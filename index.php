@@ -29,7 +29,7 @@ $albums = json_decode($albumJsonData, true);
     <div class="container my-4">
         <div class="lcd-display p-3 d-flex justify-content-between align-items-center"> 
             <span class="font-lcd">> SYSTEM STATUS: READY</span>
-            <span class="font-lcd">[ TOTAL ALBUMS: 5 ]</span>
+            <span class="font-lcd">[ TOTAL ALBUMS: <?= count($albums) ?> ]</span>
         </div>
     </div>
     <!-- card container -->
