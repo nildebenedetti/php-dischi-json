@@ -70,7 +70,6 @@ require_once('./functions.php');
                     <label for="artist" class="form-label text-mf-muted fs-6">Artist Name</label>
                     <input type="text" id="artist" name="artist" minlength="1" maxlength="60" class="form-control" placeholder="Artist Name..." required>
                 </div>
-
                 <!-- Release Year: 100% su Mobile, 1/3 su Desktop -->
                 <div class="col-12 col-md-4">
                     <label for="year" class="form-label text-mf-muted fs-6">Release Year</label>
@@ -89,8 +88,8 @@ require_once('./functions.php');
                 </div>
                 <!-- Lost Memory: 100% su Mobile, 1/2 su Desktop -->
                 <div class="col-12">
-                    <label for="imgURL" class="form-label text-mf-muted fs-6">Lost Memory</label>
-                    <input type="text" id="imgURL" name="imgURL" minlength="1" maxlength="100" class="form-control" placeholder="Unravel a memory lost within these tracks..." required>
+                    <label for="memory" class="form-label text-mf-muted fs-6">Lost Memory</label>
+                    <input type="text" id="memory" name="memory" minlength="1" maxlength="100" class="form-control" placeholder="Unravel a memory lost within these tracks..." required>
                 </div>
                 <!-- Submit Button: Largo a tutto schermo da Mobile, a destra da Desktop -->
                 <div class="col-12 mt-4 text-end">
