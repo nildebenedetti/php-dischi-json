@@ -57,3 +57,45 @@ $albums = json_decode($albumJsonData, true);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<div class="lcd-display p-3 d-flex justify-content-between align-items-center m-5"> 
+            <span class="font-lcd">> INSERT INFORMATION: </span>
+            <form action="server.php" method="post">
+            <!-- blocco con 
+            NOME - ARTISTA - RELEASE YEAR
+            ANNO PUBBLICAZIONE - IMGURL -->
+                <div class="container">
+                    <div class="row">
+                        <!-- title -->
+                        <div class="col-4 py-3">
+                            <input type="text" id="title" name="title" placeholder="Album Title...">
+                            <label for="title">Album Title</label>
+                        </div>
+                        <!-- artist -->
+                        <div class="col-4 py-3">
+                            <input type="text" id="artist" name="artist" placeholder="Artist Title...">
+                            <label for="artist">Title</label>
+                        </div>
+                        <!-- release year -->
+                        <div class="col-4 py-3">
+                            <input type="text" id="year" name=year" placeholder="Release Year...">
+                            <label for="year">Year</label>
+                        </div>
+                        <!-- genre -->
+                        <div class="col-6 py-3">
+                            <input type="text" id="genre" name="genre" placeholder="Music genre...">
+                            <label for="genre">Genre</label>
+                        </div>
+                        <!-- imgURL -->
+                        <div class="col-6 py-3">
+                            <input type="text" id="imgURL" name="imgURL" placeholder="Add Image URL...">
+                            <label for="imgURL">Image URL</label>
+                        </div>
+                    </div>
+                        <button class="btn-submit">
+                        Add Tears    
+                        </button>
+                </div>
+
+            </form>
+        </div>
