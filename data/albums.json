@@ -2,35 +2,35 @@
   {
     "title": "The Flood",
     "artist": "Of Mice & Men",
-    "coverUrl": "assets/the-flood.png",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/Of_Mice_%26_Men_The_Flood_cover.jpg",
     "releaseYear": 2011,
     "genre": "Metalcore / Post-Hardcore"
   },
   {
     "title": "Challenger",
     "artist": "Memphis May Fire",
-    "coverUrl": "assets/challenger.png",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Memphis_May_Fire_Challenger.jpg",
     "releaseYear": 2012,
     "genre": "Metalcore / Post-Hardcore"
   },
   {
     "title": "With Ears to See and Eyes to Hear",
     "artist": "Sleeping With Sirens",
-    "coverUrl": "assets/with-ears-to-see-and-eyes-to-hear.png",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d0/With_Ears_to_See_and_Eyes_to_Hear.jpg",
     "releaseYear": 2010,
     "genre": "Post-Hardcore / Alternative Rock"
   },
   {
     "title": "Unimagine",
     "artist": "Hands Like Houses",
-    "coverUrl": "assets/unimagine.png",
+    "coverUrl": "https://m.media-amazon.com/images/I/91oo7FBMQvL._AC_SL1500_.jpg",
     "releaseYear": 2013,
     "genre": "Post-Hardcore / Alternative Rock"
   },
   {
     "title": "How We Both Wondrously Perish",
     "artist": "Being As An Ocean",
-    "coverUrl": "assets/how-we-both-wondrously-perish.png",
+    "coverUrl": "https://m.media-amazon.com/images/I/61cleaQi3AS._AC_SL1200_.jpg",
     "releaseYear": 2014,
     "genre": "Melodic Hardcore / Post-Hardcore"
   }
