@@ -4,6 +4,8 @@ require_once('./functions.php');
 // use function from 
 $albums = getAlbums();
 
+// controlla se si puo usare include css e comne si fa
+
 ?>
 
 <!DOCTYPE html>

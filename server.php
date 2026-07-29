@@ -2,6 +2,8 @@
 
 require_once('./functions.php');
 
+$albums = getAlbums();
+
 // validation
 if ($_POST['title'] && $_POST['artist'] && $_POST['imgURL'] && $_POST['year'] && $_POST['genre'] && $_POST['memory']) {
 // get data from post
