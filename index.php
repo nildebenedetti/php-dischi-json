@@ -21,7 +21,7 @@ require_once('./functions.php');
 
     <header class="text-center py-5">
         <h1 class="font-display text-mf-lavender text-glow-lavender fw-bold display-4">Melancholia.fm</h1>
-        <h5 class="font-lcd text-mf-cyan text-glow-cyan mt-2">Your favorite music player for nostalgic moments</h5>
+        <h5 class="font-lcd text-mf-cyan text-glow-cyan mt-2">Your favorite music archive for nostalgic moments</h5>
     </header>
     <main class="container d-flex flex-column align-items-center justify-content-center flex-grow-1">
     <div class="container my-4">
@@ -34,17 +34,24 @@ require_once('./functions.php');
     <div class="container d-flex flex-column justify-content-center">
         <ul class="row list-unstyled g-3 justify-content-center">
             <?php foreach( $albums as $album) : ?>
-                    <li class="col-sm-12 col-md-6">
+                    <li class="col-sm-12 col-md-6 col-lg-4">
                         <div class="card bg-mf-surface border-0 glow-hover text-mf-main h-100 p-3">
                             <div class="card-body">
                                 <img src="<?= $album['coverUrl'] ?>" 
                                     class="card-img-top cover-square mb-3" 
                                     alt="<?= $album['title'] ?>">
-                                <h5 class="card-title font-display text-mf-lavender fw-bold mb-1"><?= $album['title']?></h5>
-                                <h6 class="card-subtitle text-mf-muted mb-3 fs-6"><?= $album['artist'] ?></h6>
-                                <span class="card-text text-mf-muted mb-3 fs-6">Year: <?= $album['releaseYear']?></span>
-                                <p class="card-text text-mf-muted mb-3 fs-6">Genre: <?= $album['genre']?></p>
-                                <p class="card-text text-mf-muted mb-3 fs-6 fst-italic">Lost Memory: <br> "<?= $album['memory']?>"</p>                                
+                                <h4 class="card-title font-display text-mf-lavender text-glow-lavender fw-bold mb-1 lh-base"><?= $album['title']?></h4>
+                                <h6 class="card-subtitle text-mf-cyan text-glow-cyan mb-3 fs-6"><?= $album['artist'] ?></h6>
+                                <p class="lh-base">
+                                    <span class="card-text text-mf-main mb-3 fs-6">Year: </span><span class="card-text text-mf-muted mb-3 fs-6"><?= $album['releaseYear']?></span>
+                                </p>
+                                <p class="lh-base">
+                                    <span class="card-text text-mf-main mb-3 fs-6">Genre: </span><span class="card-text text-mf-muted mb-3 fs-6"><?= $album['genre']?></span>
+                                </p>
+                                <div class="lh-base">
+                                    <p class="card-text text-mf-main mb-3 fs-6">Lost Memory: </p>
+                                    <p class="card-text text-mf-muted mb-3 fs-6 fst-italic">"<?= $album['memory']?>"</p>
+            </div>                                
                             </div>
                         </div>
                     </li>
