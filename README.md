@@ -1,7 +1,8 @@
 ## Melancholia.fm
 ### Your favorite music archive for nostalgic moments
 
-*Quali dischi ti porti dietro quando riavvolgi il nastro?*
+*Ho aperto un archivio musicale.*
+*Ma quello che cercavo erano ricordi.*
 
 La genesi di questo progetto parte da qui. E si è trasformata subito in un tuffo a picco nel passato: tra stanze al buio, la luce fredda dello schermo a notte fonda e l’amore incondizionato per la musica capace di fermare il tempo.
 
