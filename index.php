@@ -1,6 +1,8 @@
 <?php
 
 require_once('./functions.php');
+// use function from 
+$albums = getAlbums();
 
 ?>
 

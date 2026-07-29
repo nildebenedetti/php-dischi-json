@@ -1,8 +1,14 @@
 <?php
 
-// get jsondata with file_get_contents
-$albumJsonData = file_get_contents('./data/albums.json');
-// Decodes JSON string into an associative array (true = array, false = object)
-$albums = json_decode($albumJsonData, true) ?? [];
+// 1. FUNCTION FOR COLLECTING AND PARSING ALBUM DATA 
+// => get jsondata with file_get_contents
+// =>Decodes JSON string into an associative array 
+// (true = array, false = object)
+function getAlbums() {
+
+    $albumJsonData = file_get_contents('./data/albums.json');
+    return json_decode($albumJsonData, true) ?? [];
+
+}
 
 ?>
